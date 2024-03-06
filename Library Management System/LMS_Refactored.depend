@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1705082183 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\book.cpp
+	"Book.h"
+	<iostream>
+
+1705349486 c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\book.h
+	<string>
+
+1705082100 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\bookborrower .cpp
+	"BookBorrower .h"
+	"Book.h"
+	<iostream>
+
+1705081455 c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\bookborrower .h
+	<vector>
+	"Book.h"
+
+1705082080 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Book.h"
+	"Library.h"
+	"BookBorrower .h"
+
+1705082750 c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\library.h
+	<string>
+	<vector>
+	"Book.h"
+
+1705082750 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\lms_refactored\library.cpp
+	"Library.h"
+	<iostream>
+

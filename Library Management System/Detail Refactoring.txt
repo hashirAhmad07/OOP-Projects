@@ -1,0 +1,44 @@
+Separated into 3 classes:
+    Book
+    BorrowBook
+    Library
+
+Extract Method:
+    Before:
+        void displayInfo() const
+        {
+            cout << "Book ID: " << id << ", Title: " << title << ", Author: " << author;
+            if (available)
+            {
+                cout << " (Available)" <<  endl;
+            }
+            else
+            {
+                cout << " (Not Available)" <<  endl;
+            }
+        }
+    After:
+        / Extract Method Applying
+        void Book::displayAvailability() const {
+            if (available) {
+                cout << " (Available)" << endl;
+            } else {
+                cout << " (Not Available)" << endl;
+            }
+        }
+
+        void Book::displayBasicInfo() const {
+            cout << "Book ID: " << id << ", Title: " << title << ", Author: " << author;
+            displayAvailability();
+        }
+
+Applying Inline Method:
+    // commenting to show Inline Method Extraction
+
+    //void Book::displayInfo() const
+    //{
+    //    displayBasicInfo();       // Extract Method
+    //    displayAvailability();
+    //    cout << "Book ID: " << id << ", Title: " << title << ", Author: " << author;
+    //    displayAvailability();
+    //}
