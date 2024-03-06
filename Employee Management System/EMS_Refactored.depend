@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1705150655 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\ems_refactored\employee.cpp
+	"employee.h"
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	<fstream>
+
+1705150675 c:\users\bluem\onedrive\desktop\software reverse eng\project\ems_refactored\employee.h
+	<string>
+
+1705145479 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\ems_refactored\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	<fstream>
+	<windows.h>
+	"employee.h"
+	<string>
+
