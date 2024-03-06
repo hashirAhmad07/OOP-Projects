@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1705087140 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Student.h"
+	"Hostel.h"
+	"Room.h"
+	"HostelManager.h"
+
+1705088038 c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\student.h
+	<iostream>
+	<string>
+
+1705088019 c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\hostel.h
+	<iostream>
+	<string>
+	"Student.h"
+	"Room.h"
+
+1705086394 c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\room.h
+	<iostream>
+	<string>
+	<vector>
+	"Student.h"
+
+1705086236 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\room.cpp
+	"Room.h"
+	"Student.h"
+
+1705088097 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\student.cpp
+	"Student.h"
+
+1705088018 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\hostel.cpp
+	"Hostel.h"
+	"Student.h"
+	<iostream>
+	<string>
+
+1705088097 source:c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\hostelmanager.cpp
+	"HostelManager.h"
+	<iostream>
+	<string>
+
+1705088012 c:\users\bluem\onedrive\desktop\software reverse eng\project\hms_refactored_code\hostelmanager.h
+	"Hostel.h"
+
